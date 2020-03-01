@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.venuspj",
+    "module": "venus-ddd",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "cq6fzmyi5ffcrne4ay5sf27yam"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "venus-ddd-0.0.20.jar",
+          "url": "venus-ddd-0.0.20.jar",
+          "size": 112998,
+          "sha512": "483a3b20cfe59725a4de7704c7c1ab74aa477fe4f6fdc5881111760b4407b3c4709c40ac026926911cd686f6ee044c93f5e68b181e1ce61920de87a0d03910db",
+          "sha256": "e69a3fc67a3ba0569dbc0263c56ee3da8f821384e0424a41d4b144a80c5d890b",
+          "sha1": "5dc38c5d051f2d510ccf98a24345398120689c73",
+          "md5": "566573aca320a33a98d2f1503cf120dc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.venuspj",
+          "module": "venus-utils",
+          "version": {
+            "requires": "1.0.15"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "venus-ddd-0.0.20.jar",
+          "url": "venus-ddd-0.0.20.jar",
+          "size": 112998,
+          "sha512": "483a3b20cfe59725a4de7704c7c1ab74aa477fe4f6fdc5881111760b4407b3c4709c40ac026926911cd686f6ee044c93f5e68b181e1ce61920de87a0d03910db",
+          "sha256": "e69a3fc67a3ba0569dbc0263c56ee3da8f821384e0424a41d4b144a80c5d890b",
+          "sha1": "5dc38c5d051f2d510ccf98a24345398120689c73",
+          "md5": "566573aca320a33a98d2f1503cf120dc"
+        }
+      ]
+    }
+  ]
+}
