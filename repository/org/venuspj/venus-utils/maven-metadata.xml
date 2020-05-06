@@ -3,7 +3,7 @@
   <groupId>org.venuspj</groupId>
   <artifactId>venus-utils</artifactId>
   <versioning>
-    <release>1.0.16</release>
+    <release>1.0.17</release>
     <versions>
       <version>0.1.0</version>
       <version>0.9.0-SNAPSHOT</version>
@@ -24,7 +24,8 @@
       <version>1.0.14</version>
       <version>1.0.15</version>
       <version>1.0.16</version>
+      <version>1.0.17</version>
     </versions>
-    <lastUpdated>20200506031043</lastUpdated>
+    <lastUpdated>20200506042519</lastUpdated>
   </versioning>
 </metadata>
